@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/20 17:34:16 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/20 17:41:07 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/09/22 11:00:12 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	write_ch(int ch)
 {
-	char c;
-	
+	char	c;
+
 	if (ch >= 10)
 		write_ch(ch / 10);
 	c = (ch % 10) + '0';
@@ -24,7 +24,7 @@ void	write_ch(int ch)
 
 void	ft_putnbr(int nb)
 {
-	long n;
+	long	n;
 
 	n = nb;
 	if (n < 0)

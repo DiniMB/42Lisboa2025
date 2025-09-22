@@ -3,20 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/20 17:47:31 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/22 10:54:11 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/09/22 10:59:25 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_atoi(char *str)
 {
-	short signais;
-	int number;
+	short	signais;
+	int		number;
 
-	signais = number = 0;
-
+	number = 0;
+	signais = number;
 	while ((*str >= 9 && *str <= 13) || *str == 32)
 	{
 		++str;
