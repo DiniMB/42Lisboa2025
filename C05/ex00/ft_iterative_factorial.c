@@ -6,13 +6,11 @@
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 09:40:36 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/23 10:32:35 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/09/23 11:48:30 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
-int	ft_iterative_factorial(int nb)           // Declara a função que recebe um inteiro nb.
+int ft_iterative_factorial(int nb)           // Declara a função que recebe um inteiro nb.
 {
     int	result;                              // Declara uma variável para armazenar o resultado.
 

@@ -6,7 +6,23 @@
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 09:40:26 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/23 09:40:27 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/09/23 15:32:26 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_sqrt(int nb)
+{
+	int i;
+	
+	i = 1;
+	while(i != 0)
+	{
+		if (i * i == nb)
+			return (i);
+		else if (i * i > nb)
+			return (0);
+		else
+			i++;
+	}
+	return (0);
+}

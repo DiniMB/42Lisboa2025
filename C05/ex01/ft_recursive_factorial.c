@@ -6,13 +6,13 @@
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 09:40:34 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/23 10:32:20 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/09/23 11:47:53 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int ft_recursive_factorial(int nb)
+int	ft_recursive_factorial(int nb)
 {
 	int number;
 	
