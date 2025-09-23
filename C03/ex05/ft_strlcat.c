@@ -6,33 +6,41 @@
 /*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/17 14:44:59 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/18 12:32:43 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/09/23 16:20:54 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-unsigned	int	ft_strlcat(char *dest, const char *src, unsigned int size)
+unsigned int	ft_strlen(char *str)
 {
-	unsigned int	dest_len;
-	unsigned int	src_len;
 	unsigned int	i;
 
-	dest_len = 0;
-	src_len = 0;
-	while (dest_len < size && dest[dest_len])
-		dest_len++;
-	while (src[src_len])
-		src_len++;
-	if (dest_len == size)
-		return (size + src_len);
 	i = 0;
-	while (src[i] && (dest_len + i + 1) < size)
+	while (str[i])
 	{
-		dest[dest_len + i] = src[i];
 		i++;
 	}
-	if (dest_len + i < size)
-		dest[dest_len + i] = '\0';
-	return (dest_len + src_len);
+	return (i);
+}
+
+unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
+{
+	unsigned int	i;
+	unsigned int	j;
+
+	i = ft_strlen(dest);
+	if (size <= i)
+	{
+		return (size + ft_strlen(src));
+	}
+	j = 0;
+	while (src[j] && size > i + 1)
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+	dest[i] = '\0';
+	return (ft_strlen(dest) + ft_strlen(&src[j]));
 }
 
 /*int main(void)

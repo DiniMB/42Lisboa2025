@@ -6,36 +6,33 @@
 /*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/17 11:53:29 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/18 17:45:05 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/09/17 13:27:36 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strstr(char *str, char *to_find)
 {
-	int	i;
-	int	j;
+	int i;
+	int tmp;
 
 	if (*to_find == '\0')
 		return (str);
-	i = 0;
-	while (str[i])
+	while (*str != '\0')
 	{
-		j = 0;
-		while (str[i + j] == to_find[j] && str[i + j] && to_find[j])
+		if (*str == *to_find)
 		{
-			j++;
+			i = 0;
+			tmp = 0;
+			while (to_find[i] != '\0')
+			{
+				if (str[i] != to_find[i])
+					tmp = 1;
+				i++;
+			}
+			if (tmp == 0)
+				return (str);
 		}
-		if (to_find[j] == '\0')
-			return (&str[i]);
-		i++;
+		str++;
 	}
 	return (0);
 }
-
-/*int main(void)
-{
-	char str[] = "AIJDSNIHANDKUHADSJoaoNDBSUAD";
-	char to_find[] = "Joao";
-	ft_strstr(str, to_find);
-	return (0);
-}*/
