@@ -3,6 +3,12 @@
 Este repositório contém as soluções dos exercícios da **Piscine C** da [42 Lisboa](https://www.42lisboa.com).  
 O objetivo é aprender e praticar os fundamentos da linguagem C através de exercícios progressivos, desde conceitos básicos até algoritmos mais complexos.
 
+ ## ⚠️ Disclaimer
+Este repositório é apenas para **uso pessoal** e registo do meu progresso na Piscine da 42 Lisboa.  
+O código aqui presente pode conter **erros**, estar **incompleto** ou não seguir exatamente a **Norminette**.  
+⚠️ Não uses isto como solução pronta — na 42, o **Bocal** deteta facilmente cópias e podes ser apanhado.  
+Usa este repo apenas como **inspiração** e para acompanhar o meu processo de aprendizagem.
+
 ---
 
 ## 📂 Estrutura
