@@ -1,4 +1,3 @@
-# 42Lisboa2025
 # 42 Lisboa — Piscine C (C00 → C06)
 
 Este repositório contém as soluções dos exercícios da **Piscine C** da [42 Lisboa](https://www.42lisboa.com).  
