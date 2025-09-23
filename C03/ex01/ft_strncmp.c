@@ -3,20 +3,25 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/16 20:23:53 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/16 20:31:58 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/16 16:55:04 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/17 13:29:13 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strncmp(char *s1, char *s2, unsigned int n)
+int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
-    unsigned int i = 0;
+	unsigned int	i;
 
-    if (n == 0)
-        return 0;
-    while (i < n - 1 && s1[i] && s2[i] && s1[i] == s2[i])
-        i++;
-    return (s1[i] - s2[i]);
+	i = 0;
+	while (i < n && s1[i] && s2[i])
+	{
+		if (s1[i] != s2[i])
+			return ((unsigned char)s1[i] - (unsigned char)s2[i]);
+		i++;
+	}
+	if (i == n)
+		return (0);
+	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }

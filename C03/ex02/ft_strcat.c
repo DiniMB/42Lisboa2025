@@ -3,28 +3,28 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/16 20:32:46 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/18 12:36:51 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/16 19:29:09 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/17 13:28:18 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strcat(char *dest, char *src)
+char	*ft_strcat(char	*dest, char *src)
 {
-	int i;
-	int j;
+	int	i;
+	int	j;
 
 	i = 0;
 	j = 0;
-	while(dest[i])
+	while (dest[i])
 		i++;
 	while (src[j])
 	{
 		dest[i] = src[j];
 		i++;
 		j++;
-	}	
-    dest[i] = '\0';
+	}
+	dest[i] = '\0';
 	return (dest);
 }

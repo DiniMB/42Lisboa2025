@@ -3,20 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/16 20:13:49 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/16 20:22:29 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/16 16:00:39 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/17 13:29:56 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strcmp(char *s1, char *s2)
+int	ft_strcmp(char *s1, char *s2)
 {
-	int i;
+	int	i;
 
 	i = 0;
-	while(s1[i] && s2[i])
-	{	
+	while (s1[i] && s2[i])
+	{
 		if (s1[i] != s2[i])
 			return (s1[i] - s2[i]);
 		i++;
