@@ -1,28 +1,44 @@
-# 42 Lisboa — Piscine C (C00 → C06)
+# 42 Lisboa — Piscine C
 
-Este repositório contém as soluções dos exercícios da **Piscine C** da [42 Lisboa](https://www.42lisboa.com).  
-O objetivo é aprender e praticar os fundamentos da linguagem C através de exercícios progressivos, desde conceitos básicos até algoritmos mais complexos.
-
- ## ⚠️ Disclaimer
-Este repositório é apenas para **uso pessoal** e registo do meu progresso na Piscine da 42 Lisboa.  
-O código aqui presente pode conter **erros**, estar **incompleto** ou não seguir exatamente a **Norminette**.  
-⚠️ Não uses isto como solução pronta — na 42, o **Bocal** deteta facilmente cópias e podes ser apanhado.  
-Usa este repo apenas como **inspiração** e para acompanhar o meu processo de aprendizagem.
+> ⚠️ **Disclaimer**  
+> Este repositório serve apenas como registo do meu **progresso pessoal** na Piscine da 42 Lisboa.  
+> O código pode conter **erros** ou não estar totalmente em conformidade com a **Norminette**.  
+> Não uses isto como "cola" — o **Bocal** deteta facilmente cópias.  
+> Usa apenas como **referência** e **inspiração**.
 
 ---
 
-## 📂 Estrutura
-Cada diretório corresponde a um módulo da Piscine:
+## 📚 Conteúdo
+Este repositório contém exercícios resolvidos dos módulos da Piscine C:
 
-- **C00** → Introdução ao C, `ft_putchar`, `ft_print_alphabet`, `ft_print_numbers`, etc.
-- **C01** → Ponteiros, manipulação de memória e parâmetros de funções.
-- **C02** → Strings, funções de manipulação como `ft_strcpy`, `ft_strncpy`, `ft_strcmp`, etc.
-- **C03** → Mais funções de strings, incluindo concatenação e pesquisa.
-- **C04** → Conversão de strings e funções matemáticas simples (`ft_atoi`, `ft_putnbr`...).
-- **C05** → Recursividade e funções matemáticas mais avançadas (`ft_iterative_factorial`, `ft_recursive_factorial`, `ft_fibonacci`, `ft_sqrt`, `ft_is_prime`, etc).
-- **C06** → Manipulação de argumentos (`argc` e `argv`), ordenação e exibição.
+- **C00** → Funções básicas (`ft_putchar`, `ft_print_alphabet`, `ft_print_numbers`, etc.)
+- **C01** → Ponteiros e manipulação de memória
+- **C02** → Strings e funções de manipulação (`ft_strcpy`, `ft_strcmp`, etc.)
+- **C03** → Strings avançadas (concatenação, pesquisa)
+- **C04** → Conversões e matemática simples (`ft_atoi`, `ft_putnbr`, etc.)
+- **C05** → Recursividade e funções matemáticas (`ft_factorial`, `ft_fibonacci`, `ft_sqrt`, `ft_is_prime`, etc.)
+- **C06** → Argumentos (`argc`, `argv`), ordenação e exibição
 
 ---
+
+## 🎯 Objetivo
+- Aprender os fundamentos da linguagem C  
+- Exercitar lógica e resolução de problemas  
+- Preparação para projetos futuros da 42  
+
+---
+
+## 🚀 Progresso
+- [x] C00  
+- [x] C01  
+- [x] C02  
+- [x] C03  
+- [x] C04  
+- [x] C05  
+- [x] C06  
+
+--- 
+
 
 ## 🛠️ Compilação e Execução
 Todos os exercícios são escritos em C99 e compilados com:
