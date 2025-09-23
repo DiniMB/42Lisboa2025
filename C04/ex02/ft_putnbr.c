@@ -6,32 +6,36 @@
 /*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/20 17:34:16 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/22 11:00:12 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/09/22 15:15:49 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include <unistd.h>
 
-void	write_ch(int ch)
+void	ft_putchar(char c)
 {
-	char	c;
-
-	if (ch >= 10)
-		write_ch(ch / 10);
-	c = (ch % 10) + '0';
 	write(1, &c, 1);
 }
 
 void	ft_putnbr(int nb)
 {
-	long	n;
-
-	n = nb;
-	if (n < 0)
+	if (nb == -2147483648)
 	{
-		write(1, "-", 1);
-		n = -n;
+		ft_putchar('-');
+		ft_putchar('2');
+		nb = 147483648;
 	}
-	write_ch(n);
-	write(1, "\n", 1);
+	if (nb < 0)
+	{
+		ft_putchar('-');
+		nb *= -1;
+	}
+	if (nb >= 10)
+	{
+		ft_putnbr(nb / 10);
+		ft_putnbr(nb % 10);
+	}
+	else
+	{
+		ft_putchar(nb + 48);
+	}
 }
