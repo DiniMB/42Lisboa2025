@@ -45,6 +45,8 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 
 ### C Piscine modules
 
+<div align="center">
+
 | Project | Tried ? | Finished ? | Final mark |
 |---------|---------|------------|------------|
 | SHELL00 | ✅ | ✅ | 100 |
@@ -64,9 +66,13 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 | C12     | ❌ | ❌ | NaN |
 | C13     | ❌ | ❌ | NaN |
 
+</div>
+
 ---
 
 ### C Piscine rushes
+
+<div align="center">
 
 | Project | Tried ? | Passed ? | Final mark | Comments |
 |---------|---------|----------|------------|----------|
@@ -74,9 +80,13 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 | RUSH01  | - | - | - | - |
 | RUSH02  | - | - | - | - |
 
+</div>
+
 ---
 
 ### C Piscine exams
+
+<div align="center">
 
 | Project  | Passed ? | Final mark |
 |---------|---------|----------|
@@ -84,6 +94,8 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 | EXAM01 | ❌ | 10 |
 | EXAM02 | - | - | 
 | EXAM03 | - | - | 
+
+</div>
 
 ---
 
