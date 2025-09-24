@@ -18,26 +18,21 @@
 
 ---
 
-## 🚨 Aviso / Disclaimer
+## Final ranking
 
-**Você está aqui para aprender, não para copiar.**  
-As soluções neste repositório são para referência e estudo apenas — se você submeter código igual, pode haver consequências no sistema da 42 (BOCAL, etc).
+<div align="center">
 
----
+| 🏅Final ranking  | 🪜Final level |
+| ----------------- | ------------- |
+| -             | -        |
 
-## 🛠 Ferramentas / Regras utilizadas
-
-- Linguagem: C  
-- Compilador: gcc (ou equivalente compatível com as regras da 42)  
-- Somente funções permitidas segundo as normas da Piscine  
-- Uso exclusivo de `write` para saída (sem `printf`)  
-- Tratamento de casos borda (por exemplo `NULL`, strings vazias, etc.)  
+</div>
 
 ---
 
 ### ❗❗ DISCLAIMER : YOU ARE HERE TO LEARN, DON'T COPY ❗❗
-
 ### (⚠️ podes ser apanhado pelo BOCAL ☠️)
+
 
 ## AS MINHAS PONTUAÇÕES
 
