@@ -1,21 +1,8 @@
-# 42 Piscine — até C07
+# 42 Piscine
 
 Este repositório contém os meus exercícios da Piscine 42, até ao módulo **C07**.
 
 ---
-
-## 📚 Organização dos Módulos
-
-| Módulo | Estado | Notas |
-|---|---|---|
-| C00 | ✅ Completo | Fundamentos: manipulação de strings, memória, etc. |
-| C01 | ✅ Completo | Exercícios adicionais de string / ponteiros |
-| C02 | ✅ Completo | Mais funções utilitárias |
-| C03 | ✅ Completo | Funções de manipulação de arrays / strings mais complexas |
-| C04 | ✅ Completo | Trabalhos com alocação, manipulação de memória |
-| C05 | ✅ Completo | Funções mais elaboradas |
-| C06 | ✅ Completo | Continuando com casos mais complexos |
-| C07 | ✅ Completo | Até este módulo incluído |
 
 ---
 
@@ -48,15 +35,15 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 
 | Project | Tried ? | Finished ? | Final mark |
 |---------|---------|------------|------------|
-| SHELL00 | ✅ | ✅ | - |
-| SHELL01 | ✅ | ✅ | - |
-| C00     | ✅ | ✅ | - |
-| C01     | ✅ | ✅ | - |
-| C02     | ✅ | ✅ | - |
-| C03     | ✅ | ✅ | - |
-| C04     | ✅ | ✅ | - |
-| C05     | ✅ | ✅ | - |
-| C06     | ✅ | ✅ | - |
+| SHELL00 | ✅ | ✅ | 100 |
+| SHELL01 | ✅ | ✅ | 70 |
+| C00     | ✅ | ✅ | 85 |
+| C01     | ✅ | ✅ | 100 |
+| C02     | ✅ | ✅ | 75 |
+| C03     | ✅ | ✅ | 50 |
+| C04     | ✅ | ✅ | 70 |
+| C05     | ✅ | ✅ | 80 |
+| C06     | ✅ | ✅ | 100 |
 | C07     | ✅ | ✅ | - |
 | C08     | ❌ | ❌ | NaN |
 | C09     | ❌ | ❌ | NaN |
@@ -71,10 +58,20 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 
 | Project | Tried ? | Passed ? | Final mark | Comments |
 |---------|---------|----------|------------|----------|
-| RUSH00  | - | - | - | - |
+| RUSH00  | ✅  | ❌ | 10 | - |
 | RUSH01  | - | - | - | - |
 | RUSH02  | - | - | - | - |
 
+---
+
+###C Piscine exams
+
+| Project  | Passed ? | Final mark |
+|---------|---------|----------|
+| EXAM00  | ✅  | 40 | 
+| EXAM01 | ❌ | 10 |
+| EXAM02 | - | - | 
+| EXAM03 | - | - | 
 
 ---
 
