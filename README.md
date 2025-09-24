@@ -64,7 +64,7 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 
 ---
 
-###C Piscine exams
+### C Piscine exams
 
 | Project  | Passed ? | Final mark |
 |---------|---------|----------|
