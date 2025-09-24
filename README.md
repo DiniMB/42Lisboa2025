@@ -96,3 +96,9 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 </div>
 
 ---
+
+<div align="center">
+
+This module was done by [dbaltaza](https://instagram.com/dini.mb).
+
+</div>
