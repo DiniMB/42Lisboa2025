@@ -41,7 +41,6 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 
 ## AS MINHAS PONTUAÇÕES
 ---
-
 ### C Piscine modules
 
 <div align="center">
