@@ -1,46 +1,88 @@
-# 42 Lisboa — Piscine C
+# 42 Piscine — até C07
 
-> ⚠️ **Disclaimer**  
-> Este repositório serve apenas como registo do meu **progresso pessoal** na Piscine da 42 Lisboa.  
-> O código pode conter **erros** ou não estar totalmente em conformidade com a **Norminette**.  
-> Não uses isto como "cola" — o **Bocal** deteta facilmente cópias.  
-> Usa apenas como **referência** e **inspiração**.
+Este repositório contém os meus exercícios da Piscine 42, até ao módulo **C07**.
 
 ---
 
-## 📚 Conteúdo
-Este repositório contém exercícios resolvidos dos módulos da Piscine C:
+## 📚 Organização dos Módulos
 
-- **C00** → Funções básicas (`ft_putchar`, `ft_print_alphabet`, `ft_print_numbers`, etc.)
-- **C01** → Ponteiros e manipulação de memória
-- **C02** → Strings e funções de manipulação (`ft_strcpy`, `ft_strcmp`, etc.)
-- **C03** → Strings avançadas (concatenação, pesquisa)
-- **C04** → Conversões e matemática simples (`ft_atoi`, `ft_putnbr`, etc.)
-- **C05** → Recursividade e funções matemáticas (`ft_factorial`, `ft_fibonacci`, `ft_sqrt`, `ft_is_prime`, etc.)
-- **C06** → Argumentos (`argc`, `argv`), ordenação e exibição
-
----
-
-## 🎯 Objetivo
-- Aprender os fundamentos da linguagem C  
-- Exercitar lógica e resolução de problemas  
-- Preparação para projetos futuros da 42  
+| Módulo | Estado | Notas |
+|---|---|---|
+| C00 | ✅ Completo | Fundamentos: manipulação de strings, memória, etc. |
+| C01 | ✅ Completo | Exercícios adicionais de string / ponteiros |
+| C02 | ✅ Completo | Mais funções utilitárias |
+| C03 | ✅ Completo | Funções de manipulação de arrays / strings mais complexas |
+| C04 | ✅ Completo | Trabalhos com alocação, manipulação de memória |
+| C05 | ✅ Completo | Funções mais elaboradas |
+| C06 | ✅ Completo | Continuando com casos mais complexos |
+| C07 | ✅ Completo | Até este módulo incluído |
 
 ---
 
-## 🚀 Progresso
-- [x] C00  
-- [x] C01  
-- [x] C02  
-- [x] C03  
-- [x] C04  
-- [x] C05  
-- [x] C06  
+## 🚨 Aviso / Disclaimer
 
---- 
+**Você está aqui para aprender, não para copiar.**  
+As soluções neste repositório são para referência e estudo apenas — se você submeter código igual, pode haver consequências no sistema da 42 (BOCAL, etc).
+
+---
+
+## 🛠 Ferramentas / Regras utilizadas
+
+- Linguagem: C  
+- Compilador: gcc (ou equivalente compatível com as regras da 42)  
+- Somente funções permitidas segundo as normas da Piscine  
+- Uso exclusivo de `write` para saída (sem `printf`)  
+- Tratamento de casos borda (por exemplo `NULL`, strings vazias, etc.)  
+
+---
+
+### ❗❗ DISCLAIMER : YOU ARE HERE TO LEARN, DON'T COPY ❗❗
+
+### (⚠️ podes ser apanhado pelo BOCAL ☠️)
+
+---
+
+## MY SCORES
+
+### C Piscine modules
+
+| Project | Tried ? | Finished ? | Final mark |
+|---------|---------|------------|------------|
+| SHELL00 | ✅ | ✅ | - |
+| SHELL01 | ✅ | ✅ | - |
+| C00     | ✅ | ✅ | - |
+| C01     | ✅ | ✅ | - |
+| C02     | ✅ | ✅ | - |
+| C03     | ✅ | ✅ | - |
+| C04     | ✅ | ✅ | - |
+| C05     | ✅ | ✅ | - |
+| C06     | ✅ | ✅ | - |
+| C07     | ✅ | ✅ | - |
+| C08     | ❌ | ❌ | NaN |
+| C09     | ❌ | ❌ | NaN |
+| C10     | ❌ | ❌ | NaN |
+| C11     | ❌ | ❌ | NaN |
+| C12     | ❌ | ❌ | NaN |
+| C13     | ❌ | ❌ | NaN |
+
+---
+
+### C Piscine rushes
+
+| Project | Tried ? | Passed ? | Final mark | Comments |
+|---------|---------|----------|------------|----------|
+| RUSH00  | - | - | - | - |
+| RUSH01  | - | - | - | - |
+| RUSH02  | - | - | - | - |
 
 
-## 🛠️ Compilação e Execução
-Todos os exercícios são escritos em C99 e compilados com:
-```sh
-gcc -Wall -Wextra -Werror file.c -o output
+---
+
+## 📝 Créditos / Referências
+
+Obrigado à comunidade 42 por partilhar recursos úteis!
+
+---
+
+Se quiseres, posso montar-te esse README já personalizado **para ti**, com os teus módulos feitos, data, tua introdução, etc. Queres isso?
+::contentReference[oaicite:1]{index=1}
