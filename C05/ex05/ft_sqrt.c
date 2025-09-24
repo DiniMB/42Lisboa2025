@@ -3,19 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 09:40:26 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/23 15:32:26 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/09/24 14:41:06 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_sqrt(int nb)
 {
-	int i;
-	
+	int	i;
+
 	i = 1;
-	while(i != 0)
+	while (i != 0)
 	{
 		if (i * i == nb)
 			return (i);
