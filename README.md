@@ -96,12 +96,3 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 </div>
 
 ---
-
-## 📝 Créditos / Referências
-
-Obrigado à comunidade 42 por partilhar recursos úteis!
-
----
-
-Se quiseres, posso montar-te esse README já personalizado **para ti**, com os teus módulos feitos, data, tua introdução, etc. Queres isso?
-::contentReference[oaicite:1]{index=1}
