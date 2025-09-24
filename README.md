@@ -47,15 +47,15 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 
 | Project | Tried ? | Finished ? | Final mark |
 |---------|---------|------------|------------|
-| SHELL00 | ✅ | ✅ | 100 |
-| SHELL01 | ✅ | ✅ | 70 |
-| C00     | ✅ | ✅ | 85 |
-| C01     | ✅ | ✅ | 100 |
-| C02     | ✅ | ✅ | 75 |
-| C03     | ✅ | ✅ | 50 |
-| C04     | ✅ | ✅ | 70 |
-| C05     | ✅ | ✅ | 80 |
-| C06     | ✅ | ✅ | 100 |
+| SHELL00 | ✅ | ✅ | 💯 |
+| SHELL01 | ✅ | ✅ | 70/100 |
+| C00     | ✅ | ✅ | 85/100 |
+| C01     | ✅ | ✅ | 💯 |
+| C02     | ✅ | ✅ | 75/100 |
+| C03     | ✅ | ✅ | 50/100 |
+| C04     | ✅ | ✅ | 70/100 |
+| C05     | ✅ | ✅ | 80/100 |
+| C06     | ✅ | ✅ | 💯 |
 | C07     | ✅ | ✅ | - |
 | C08     | ❌ | ❌ | NaN |
 | C09     | ❌ | ❌ | NaN |
@@ -74,7 +74,7 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 
 | Project | Tried ? | Passed ? | Final mark | Comments |
 |---------|---------|----------|------------|----------|
-| RUSH00  | ✅  | ❌ | 10 | - |
+| RUSH00  | ✅  | ❌ | 10/100 | - |
 | RUSH01  | - | - | - | - |
 | RUSH02  | - | - | - | - |
 
@@ -88,8 +88,8 @@ As soluções neste repositório são para referência e estudo apenas — se vo
 
 | Project  | Passed ? | Final mark |
 |---------|---------|----------|
-| EXAM00  | ✅  | 40 | 
-| EXAM01 | ❌ | 10 |
+| EXAM00  | ✅  | 40/100 | 
+| EXAM01 | ❌ | 10/100 |
 | EXAM02 | - | - | 
 | EXAM03 | - | - | 
 
