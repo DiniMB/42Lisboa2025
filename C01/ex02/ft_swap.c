@@ -5,16 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/15 12:05:52 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/15 16:25:10 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/28 16:22:05 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/28 16:23:36 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_swap(int *a, int *b)
+void ft_swap(int *a, int *b)
 {
-	int atemp;
+	int t;
 
-	atemp = *a;
+	t = *a;
 	*a = *b;
-	*b = atemp;
+	*b = t;
 }

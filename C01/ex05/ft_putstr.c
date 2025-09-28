@@ -5,20 +5,15 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/15 12:14:10 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/15 12:31:21 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/28 16:26:21 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/28 16:27:07 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putstr(char *str)
+#include <unistd.h>
+
+void ft_putstr(char *str)
 {
-	int i;
-
-	i = 0,
-	while(str[i])
-	{
-		write(1, &str[i], 1);
-		i++;
-	}
-
+	while(*str)
+		write(1, str++, 1);
 }

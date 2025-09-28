@@ -5,15 +5,18 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/15 12:12:44 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/15 19:34:27 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/28 16:24:58 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/28 16:26:07 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_ultimate_div_mod(int *a, int *b)
+void ft_ultimate_div_mod(int *a, int *b)
 {
-	int atemp = *a;
-	int btemp = *b;
+	int ta;
+	int tb;
 
-	*a = atemp / btemp;
-	*b = atemp % btemp;
+	ta = *a;
+	tb = *b;
+	*a = ta / tb;
+	*b = ta % tb;
+}

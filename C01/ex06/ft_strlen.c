@@ -5,19 +5,17 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/15 12:30:49 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/15 16:24:58 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/28 16:27:45 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/28 16:29:03 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+int ft_strlen(char *str)
 {
 	int i;
 
-	i = 0,
-	while(str[i])
-	{
+	i = 0;
+	while (str[i])
 		i++;
-	}
 	return (i);
 }

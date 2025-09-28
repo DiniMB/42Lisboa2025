@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/15 12:09:35 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/15 16:25:08 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/28 16:23:53 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/28 16:24:41 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_div_mod(int a, int b, int *div, int *mod)
+void ft_div_mod(int a, int b, int *div, int *mod)
 {
 	*div = a / b;
 	*mod = a % b;
