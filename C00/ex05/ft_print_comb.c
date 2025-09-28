@@ -5,43 +5,42 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/11 13:21:00 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/12 11:19:30 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/28 14:46:48 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/28 14:55:49 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_comb(void)
+void ft_print_comb(void)
 {
-	char	d1;
-	char	d2;
-	char	d3;
+	int a;
+	int b;
+	int c;
 
-	d1 = '0';
-	while (d1 <= '7')
+	a = '0';
+	while (a <= '7')
 	{
-		d2 = d1 +1;
-		while (d2 <= '8')
-		{
-			d3 = d2 +1;
-			while (d3 <= '9')
+		b = a + 1;
+			while (b <= '8')
 			{
-				write(1, &d1, 1);
-				write(1, &d2, 1);
-				write(1, &d3, 1);
-				if (!(d1 == '7' && d2 == '8' && d3 == '9'))
-					write(1, ", ", 2);
-				d3++;
+				c = b + 1;
+					while(c <= '9')
+					{
+						write(1, &a, 1);
+						write(1, &b, 1);
+						write(1, &c, 1);
+						if (!(a == '7' && b == '8' && c == '9'))
+							write(1, ", ", 2);
+						c++;
+					}
+				b++;	  
 			}
-			d2++;
-		}
-		d1++;
-	}
+		a++;
+	} 
 }
 
-/*  int	main(void)
+/* int main(void)
 {
 	ft_print_comb();
-	return (0);
 } */

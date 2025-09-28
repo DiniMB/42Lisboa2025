@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/11 13:04:58 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/11 13:19:47 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/28 14:39:28 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/28 14:42:28 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_print_numbers(void)
 {
-	char	num;
+	int num;
 
 	num = '0';
 	while (num <= '9')
@@ -23,9 +23,3 @@ void	ft_print_numbers(void)
 		num++;
 	}
 }
-
-/*int	main(void)
-{
-	ft_print_numbers();
-	return (0);
-}*/

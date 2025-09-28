@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/11 13:04:58 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/13 15:30:03 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/28 14:34:43 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/28 14:38:07 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_print_alphabet(void)
 {
-	char	alpha;
+	char alpha;
 
 	alpha = 'a';
 	while (alpha <= 'z')
@@ -23,9 +23,3 @@ void	ft_print_alphabet(void)
 		alpha++;
 	}
 }
-
-/*int	main(void)
-{
-	ft_print_alphabet();
-	return (0);
-}*/

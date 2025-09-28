@@ -5,24 +5,25 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/11 13:21:00 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/12 10:31:48 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/28 14:40:34 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/28 14:45:54 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_is_negative(int n)
+void ft_is_negative(int n)
 {
-	if (n < 0)
-		write(1, "N", 1);
-	else
-		write(1, "P", 1);
+	char *letter;
+	
+    if (n < 0)
+        letter = "N";
+    else 
+        letter = "P";    
+	write(1, letter, 1);
 }
 
-/* int	main(void)
+/* int main(void)
 {
-	ft_is_negative(10);
-	ft_is_negative(-10);
-	return (0);
+	ft_is_negative(-12);
 } */

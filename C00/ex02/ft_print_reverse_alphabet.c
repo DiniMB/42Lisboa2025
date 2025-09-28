@@ -5,16 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/11 13:04:58 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/11 13:12:55 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/09/28 14:37:17 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/09/28 14:39:12 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_reverse_alphabet(void)
+void ft_print_reverse_alphabet(void)
 {
-	char	ralpha;
+	char ralpha;
 
 	ralpha = 'z';
 	while (ralpha >= 'a')
@@ -23,9 +23,3 @@ void	ft_print_reverse_alphabet(void)
 		ralpha--;
 	}
 }
-
-/*int	main(void)
-{
-	ft_print_reverse_alphabet();
-	return (0);
-}*/
