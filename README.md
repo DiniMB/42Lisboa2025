@@ -17,17 +17,6 @@
 
 ---
 
-## Final ranking
-
-<div align="center">
-
-| 🏅Final ranking  | 🪜Final level |
-| ----------------- | ------------- |
-| -             | -        |
-
-</div>
-
----
 
 ### ❗❗ DISCLAIMER : YOU ARE HERE TO LEARN, DON'T COPY ❗❗
 ### (⚠️ podes ser apanhado pelo BOCAL ☠️)
