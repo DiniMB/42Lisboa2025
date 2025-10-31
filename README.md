@@ -1,4 +1,4 @@
-<h1 align="center">Piscine 42 (Lisboa) - Setembro 2025 🏊‍♂️</h1>
+<h1 align="center">42 Piscine (Lisbon) - September 2025 🏊‍♂️</h1>
 
 
 ```
@@ -15,21 +15,22 @@
             /* ************************************************************************** */
 ```
 
+
 ---
 
+### ⚠️ DISCLAIMER
 
-### ❗❗ DISCLAIMER : YOU ARE HERE TO LEARN, DON'T COPY ❗❗
-### (⚠️ podes ser apanhado pelo BOCAL ☠️)
+> **You are here to learn — not to copy.**  
+> Cheating is easily detected by the BOCAL system ☠️
 
+## 🧠 My Scores
 
-## AS MINHAS PONTUAÇÕES
-
-### C Piscine modules
+### C Piscine Modules
 
 <div align="center">
 
-| Project | Tried ? | Finished ? | Final mark |
-|---------|---------|------------|------------|
+| Project | Attempted | Completed | Final Grade |
+|---------|------------|------------|--------------|
 | SHELL00 | ✅ | ✅ | 💯 |
 | SHELL01 | ✅ | ✅ | 70/100 |
 | C00     | ✅ | ✅ | 85/100 |
@@ -40,24 +41,24 @@
 | C05     | ✅ | ✅ | 80/100 |
 | C06     | ✅ | ✅ | 💯 |
 | C07     | ✅ | ✅ | 60/100 |
-| C08     | ❌ | ❌ | NaN |
-| C09     | ❌ | ❌ | NaN |
-| C10     | ❌ | ❌ | NaN |
-| C11     | ❌ | ❌ | NaN |
-| C12     | ❌ | ❌ | NaN |
-| C13     | ❌ | ❌ | NaN |
+| C08     | ❌ | ❌ | — |
+| C09     | ❌ | ❌ | — |
+| C10     | ❌ | ❌ | — |
+| C11     | ❌ | ❌ | — |
+| C12     | ❌ | ❌ | — |
+| C13     | ❌ | ❌ | — |
 
 </div>
 
 ---
 
-### C Piscine rushes
+### 🚀 C Piscine Rushes
 
 <div align="center">
 
-| Project | Tried ? | Passed ? | Final mark |
-|---------|---------|----------|------------|
-| RUSH00  | ✅  | ❌ | 10/100 |
+| Project | Attempted | Passed | Final Grade |
+|---------|------------|---------|--------------|
+| RUSH00  | ✅ | ❌ | 10/100 |
 | RUSH01  | ✅ | ❌ | 0/100 |
 | RUSH02  | ✅ | ❌ | 0/100 |
 
@@ -65,16 +66,16 @@
 
 ---
 
-### C Piscine exams
+### 🧩 C Piscine Exams
 
 <div align="center">
 
-| Project  | Passed ? | Final mark |
-|---------|---------|----------|
-| EXAM00  | ✅  | 40/100 | 
+| Exam | Passed | Final Grade |
+|------|---------|-------------|
+| EXAM00 | ✅ | 40/100 |
 | EXAM01 | ❌ | 10/100 |
-| EXAM02 | ✅  | 40/100 | 
-| EXAM03 | ✅ | 48/100 | 
+| EXAM02 | ✅ | 40/100 |
+| EXAM03 | ✅ | 48/100 |
 
 </div>
 
@@ -82,6 +83,6 @@
 
 <div align="center">
 
-This module was done by [dbaltaza](https://instagram.com/dini.mb).
+_This work was completed by [dbaltaza](https://instagram.com/dini.mb) during the **42 Piscine Lisbon - September 2025**._
 
 </div>
